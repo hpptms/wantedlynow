@@ -20,6 +20,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:description" content="wantedly内の募集で自社サービス,自社プロダクトの募集のみ表示しています">
 <meta name="twitter:title" content="wantedly now">
+<meta name="msvalidate.01" content="F37C7C79F80EDFE1CEA4ABB1A123E3CA" />
 <link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1645163643/casino/chick.svg" sizes="32x32">
 <link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1645163643/casino/chick.svg" sizes="192x192">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
