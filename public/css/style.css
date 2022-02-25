@@ -1071,7 +1071,7 @@ ul.location li:nth-child(2) {
 .footer-social-icons ul li a{
 	width:30px;
 	height:30px;
-	background:url('../images/img-sprite.png') no-repeat 0px 0px;
+	background:url('https://res.cloudinary.com/danj8nvfr/image/upload/v1645760483/inhous/img-sprite.webp') no-repeat 0px 0px;
 	display:inline-block;
 	position: relative;
 }
