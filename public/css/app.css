@@ -1,0 +1,44 @@
+ul {
+  list-style: none;
+}
+
+.attention {
+  background-color: #FFF;
+  margin: 2rem;
+  padding: 2rem;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.title_1 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas, .fa-brands {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.banner h1 {
+  text-shadow: 1px 1px 2px #000;
+}
+
+.banner h1:hover {
+  color: #f3c500;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.banner p {
+  text-shadow: 1px 1px 2px #000;
+}
+
+.banner p:hover {
+  color: #01a185;
+  text-shadow: 1px 1px 2px #000;
+}
+
