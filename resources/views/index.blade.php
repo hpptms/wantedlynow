@@ -9,7 +9,7 @@
 			<a href="{{ url('towantedly') }}">wantedly様へ</a>
 	  </div>
 	</div>
-		<!-- content-starts-here -->
+		<!-- content-starts-here --> 
 		<div class="content">
 			<div class="categories">
 				<div class="container">
