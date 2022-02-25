@@ -14,7 +14,7 @@
     $.fn.flexisel = function (options) {
 
         var defaults = $.extend({
-    		visibleItems: 4,
+    		visibleItems: 1,
     		animationSpeed: 200,
     		autoPlay: false,
     		autoPlaySpeed: 3000,    		

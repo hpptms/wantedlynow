@@ -24,87 +24,17 @@
 					<h2>Sponsored Links</h2>
 							<ul id="flexiselDemo3">
 								<li>
-									<div class="col-md-3 biseller-column">
-										<a href="single.html">
-											<img src="images/p1.jpg"/>
-											<span class="price">&#36; 450</span>
-										</a> 
-										<div class="ad-info">
-											<h5>There are many variations of passages</h5>
-											<span>1 hour ago</span>
-										</div>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="single.html">
-											<img src="images/p2.jpg"/>
-											<span class="price">&#36; 399</span>
-										</a> 
-										<div class="ad-info">
-											<h5>Lorem Ipsum is simply dummy</h5>
-											<span>3 hour ago</span>
-										</div>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="single.html">
-											<img src="images/p3.jpg"/>
-											<span class="price">&#36; 199</span>
-										</a> 
-										<div class="ad-info">
-											<h5>It is a long established fact that a reader</h5>
-											<span>8 hour ago</span>
-										</div>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="single.html">
-											<img src="images/p4.jpg"/>
-											<span class="price">&#36; 159</span>
-										</a> 
-										<div class="ad-info">
-											<h5>passage of Lorem Ipsum you need to be</h5>
-											<span>19 hour ago</span>
-										</div>
+									<div class="col-md-12 biseller-column">
+										<a href="https://px.a8.net/svt/ejp?a8mat=3HG58C+APSYBM+50+5YBMCI&a8ejpredirect=https%3A%2F%2Fwww.conoha.jp%2Fwing" rel="nofollow">
+											<img class="alignnone size-full wp-image-289" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645759215/inhous/WS000008.jpg.webp" alt="conoha wing" width="952" height="327" />
+											</a>
 									</div>
 								</li>
 								<li>
-									<div class="col-md-3 biseller-column">
-										<a href="single.html">
-											<img src="images/p5.jpg"/>
-											<span class="price">&#36; 1599</span>
-										</a> 
-										<div class="ad-info">
-											<h5>There are many variations of passages</h5>
-											<span>1 hour ago</span>
-										</div>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="single.html">
-											<img src="images/p6.jpg"/>
-											<span class="price">&#36; 1099</span>
-										</a> 
-										<div class="ad-info">
-											<h5>passage of Lorem Ipsum you need to be</h5>
-											<span>1 day ago</span>
-										</div>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="single.html">
-											<img src="images/p7.jpg"/>
-											<span class="price">&#36; 109</span>
-										</a> 
-										<div class="ad-info">
-											<h5>It is a long established fact that a reader</h5>
-											<span>9 hour ago</span>
-										</div>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="single.html">
-											<img src="images/p8.jpg"/>
-											<span class="price">&#36; 189</span>
-										</a> 
-										<div class="ad-info">
-											<h5>Lorem Ipsum is simply dummy</h5>
-											<span>3 hour ago</span>
-										</div>
+									<div class="col-md-12 biseller-column">
+										<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3601201&pid=887196493&vc_url=https%3A%2F%2Ftechacademy.jp%2F%3Futm_source%3Dvaluecommerce%26utm_medium%3Daffiliate%26utm_campaign%3Dmylink" rel="nofollow">
+											<img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3601201&pid=887196493" width="0" height="1" border="0" />
+											<img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645759215/inhous/WS000011.jpg.webp" border="0" /></a>
 									</div>
 								</li>
 								<li>
