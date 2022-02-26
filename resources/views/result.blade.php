@@ -10,10 +10,13 @@
 	  </div>
 	</div>
 	<!-- result -->
-	{{-- @foreach($values as $value)
-		{{$value->company}}<br>
-		{{$value->bosyuu}}<br>
-	@endforeach --}}
+	{{-- @foreach($results as $result) --}}
+	<pre>
+		{{-- {{$result->id}}<br>
+		{{$result->company}}<br>
+		{{$result->bosyuu}}<br> --}}
+	</pre>
+	@endforeach
 	<!-- // result -->
 	<!--footer section start-->		
 	@include('parts.footer')

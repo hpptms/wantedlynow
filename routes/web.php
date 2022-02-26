@@ -39,13 +39,12 @@ Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
 
-// Route::get('/result', function () {
-//     return view('result');
-// })->name('result');
-
 Route::get('/', 'InhouseController@index')->name('index');
-Route::post('/result{?}', 'InhouseController@serch')->name('result');
-Route::get('/result{?}', 'InhouseController@serch')->name('result');
+Route::post('/result', 'InhouseController@serch')->name('result');
+// Route::get('/result{?}', 'InhouseController@serch')->name('result');
 
 // Route::get('/index', 'InhouseController@index');
 // Route::post('/Inhouse/result', 'InhouseController@result');
+
+Route::get('/hello/add', 'HelloController@add');
+Route::post('/hello/result', 'HelloController@result');

@@ -12,22 +12,36 @@ class InhouseController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $req)
     {
         return view('index');
     }
 
-    public function serch($query)
+    public function serch(Request $req)
     {
-        // var_dump($query);
-        // exit;
-
+        $lang = $req->lang;
         $inhouse = new Inhous;
-        $result = $inhouse->simpleSerch($query);
+        $results = $inhouse->simpleSerch($lang);
+
+        if($results == null){
+            return "言語に一致した条件がありませんでした。";  
+        }
+
+ 
+        return view($results);
+    }
+
+    // public function serch(Request $req)
+    // {
+    //     // var_dump($req);
+    //     // exit;
+
+    //     // $inhouse = new Inhous;
+    //     // $result = $inhouse->simpleSerch($req);
         
  
-        return view('result',compact($result));
-    }
+    //     return view('hello.result');
+    // }
 
     /**
      * Show the form for creating a new resource.
