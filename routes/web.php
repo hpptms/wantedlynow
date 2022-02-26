@@ -23,9 +23,9 @@ Route::group(['prefix' => 'sitemaps'], function() {
     // sitemapを増やす場合はココに追記していく。
 });
 
-// Route::get('/', function () {
-//     return view('index');
-// })->name('index');
+Route::get('/', function () {
+    return view('index');
+})->name('index');
 
 Route::get('/towantedly', function () {
     return view('towantedly');
@@ -39,7 +39,7 @@ Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
 
-Route::get('/', 'InhouseController@index')->name('index');
+// Route::get('/', 'InhouseController@index')->name('index');
 Route::post('/result', 'InhouseController@serch')->name('result');
 // Route::get('/result{?}', 'InhouseController@serch')->name('result');
 
