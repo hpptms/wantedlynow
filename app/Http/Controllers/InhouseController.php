@@ -28,7 +28,7 @@ class InhouseController extends Controller
         }
 
  
-        return view($results);
+        return view('result',['results' =>$results]);
     }
 
     // public function serch(Request $req)

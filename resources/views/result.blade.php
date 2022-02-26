@@ -10,11 +10,11 @@
 	  </div>
 	</div>
 	<!-- result -->
-	{{-- @foreach($results as $result) --}}
+	@foreach($results as $result)
 	<pre>
-		{{-- {{$result->id}}<br>
+		{{$result->id}}<br>
 		{{$result->company}}<br>
-		{{$result->bosyuu}}<br> --}}
+		{{$result->bosyuu}}<br>
 	</pre>
 	@endforeach
 	<!-- // result -->
