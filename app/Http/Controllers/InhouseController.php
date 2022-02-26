@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Inhous;
 
 class InhouseController extends Controller
 {
@@ -13,7 +14,19 @@ class InhouseController extends Controller
      */
     public function index()
     {
-        //
+        return view('index');
+    }
+
+    public function serch($query)
+    {
+        // var_dump($query);
+        // exit;
+
+        $inhouse = new Inhous;
+        $result = $inhouse->simpleSerch($query);
+        
+ 
+        return view('result',compact($result));
     }
 
     /**

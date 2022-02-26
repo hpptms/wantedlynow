@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Sitemap;
+use App\Http\Controllers\Inhouse;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,9 +23,9 @@ Route::group(['prefix' => 'sitemaps'], function() {
     // sitemapを増やす場合はココに追記していく。
 });
 
-Route::get('/', function () {
-    return view('index');
-})->name('index');
+// Route::get('/', function () {
+//     return view('index');
+// })->name('index');
 
 Route::get('/towantedly', function () {
     return view('towantedly');
@@ -37,3 +38,14 @@ Route::get('/contact', function () {
 Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
+
+// Route::get('/result', function () {
+//     return view('result');
+// })->name('result');
+
+Route::get('/', 'InhouseController@index')->name('index');
+Route::post('/result{?}', 'InhouseController@serch')->name('result');
+Route::get('/result{?}', 'InhouseController@serch')->name('result');
+
+// Route::get('/index', 'InhouseController@index');
+// Route::post('/Inhouse/result', 'InhouseController@result');
