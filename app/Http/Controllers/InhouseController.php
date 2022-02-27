@@ -31,9 +31,9 @@ class InhouseController extends Controller
     {
         $id = $req->id;
         $inhouse = new Inhous;
-        $live = new Counter;
-        $live->render($req);
-         
+        $results = $inhouse->overview($id);
+        
+        return view('overview',['result' =>$results]);
     }
 
     /**

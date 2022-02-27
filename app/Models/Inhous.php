@@ -19,9 +19,9 @@ class Inhous extends Model
     }
 
     public function overview($query){
-        $result = Inhous::where('id',$query)
+        $result = Inhous::where('id','=',$query)
                   ->select('id','url','company','bosyuu','lang','overview')
-                  ->first();
+                  ->get();
         return $result;
     }
 }
