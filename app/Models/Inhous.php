@@ -17,4 +17,11 @@ class Inhous extends Model
                   ->get();
         return $result;
     }
+
+    public function overview($query){
+        $result = Inhous::where('id',$query)
+                  ->select('id','url','company','bosyuu','lang','overview')
+                  ->first();
+        return $result;
+    }
 }

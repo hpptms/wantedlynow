@@ -10,17 +10,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="自社サービス,自社プロダクト,wantedly" />
 <meta name="description" content="wantedly内の募集で自社サービス,自社プロダクトの募集のみ表示しています">
-<link rel="canonical" href="">
+<link rel="canonical" href="https://wantedlynow.net/">
 <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="website">
 <meta property="og:title" content="wantedly内の募集で自社サービス,自社プロダクトの募集のみ表示しています">
 <meta property="og:description" content="wantedly内の募集で自社サービス,自社プロダクトの募集のみ表示しています">
-<meta property="og:url" content="">
+<meta property="og:url" content="https://wantedlynow.net/">
 <meta property="og:site_name" content="wantedly now">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:description" content="wantedly内の募集で自社サービス,自社プロダクトの募集のみ表示しています">
 <meta name="twitter:title" content="wantedly now">
 <meta name="msvalidate.01" content="F37C7C79F80EDFE1CEA4ABB1A123E3CA" />
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1645163643/casino/chick.svg" sizes="32x32">
 <link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1645163643/casino/chick.svg" sizes="192x192">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -87,4 +88,5 @@
 				} );
 			} );
 		</script>
+@livewireStyles
 </head>

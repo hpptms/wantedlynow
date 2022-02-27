@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Inhous;
+use App\Http\Livewire\Counter;
 
 class InhouseController extends Controller
 {
@@ -23,25 +24,17 @@ class InhouseController extends Controller
         $inhouse = new Inhous;
         $results = $inhouse->simpleSerch($lang);
 
-        if($results == null){
-            return "言語に一致した条件がありませんでした。";  
-        }
-
- 
         return view('result',['results' =>$results]);
     }
 
-    // public function serch(Request $req)
-    // {
-    //     // var_dump($req);
-    //     // exit;
-
-    //     // $inhouse = new Inhous;
-    //     // $result = $inhouse->simpleSerch($req);
-        
- 
-    //     return view('hello.result');
-    // }
+   public function overview(Request $req)
+    {
+        $id = $req->id;
+        $inhouse = new Inhous;
+        $live = new Counter;
+        $live->render($req);
+         
+    }
 
     /**
      * Show the form for creating a new resource.

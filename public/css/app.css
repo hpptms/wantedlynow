@@ -14,16 +14,6 @@ ul {
   margin-bottom: 1rem;
 }
 
-.fa, .fab, .fad, .fal, .far, .fas, .fa-brands {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-}
-
 .banner h1 {
   text-shadow: 1px 1px 2px #000;
 }
@@ -40,5 +30,14 @@ ul {
 .banner p:hover {
   color: #01a185;
   text-shadow: 1px 1px 2px #000;
+}
+
+.result {
+  background-color: #01a185;
+  padding: 2rem;
+}
+
+.result-content:hover {
+  background-color: #f3c500;
 }
 

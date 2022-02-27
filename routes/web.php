@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Sitemap;
 use App\Http\Controllers\Inhouse;
+use App\Http\Livewire\Counter;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,7 @@ use App\Http\Controllers\Inhouse;
 
 // sitemap-indexのルート
 Route::get('sitemap.xml', 'SitemapController@index')->name('sitemap');
-Route::group(['prefix' => 'sitemaps'], function() {
+Route::group(['prefix' => 'sitemaps'], function () {
     // sitemapのルート
     Route::get('basics.xml', 'SitemapController@basics')->name('sitemap-basics');
     // sitemapを増やす場合はココに追記していく。
@@ -39,12 +40,6 @@ Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
 
-// Route::get('/', 'InhouseController@index')->name('index');
 Route::post('/result', 'InhouseController@serch')->name('result');
-// Route::get('/result{?}', 'InhouseController@serch')->name('result');
 
-// Route::get('/index', 'InhouseController@index');
-// Route::post('/Inhouse/result', 'InhouseController@result');
-
-Route::get('/hello/add', 'HelloController@add');
-Route::post('/hello/result', 'HelloController@result');
+Route::post('/overview', 'InhouseController@overview')->name('overview');
