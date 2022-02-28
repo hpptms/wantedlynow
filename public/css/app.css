@@ -41,3 +41,34 @@ ul {
   background-color: #f3c500;
 }
 
+.overview-content:hover {
+  background-color: #fff;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.tag {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 0.5rem 0.5rem 3rem;
+  margin: 2px;
+  color: #fff;
+  border-radius: 100vh 0 0 100vh;
+  background: #01a185;
+}
+
+.tag:before {
+  position: absolute;
+  top: calc(50% - 7px);
+  left: 10px;
+  width: 14px;
+  height: 14px;
+  content: "";
+  border-radius: 50%;
+  background: #fff;
+}
+

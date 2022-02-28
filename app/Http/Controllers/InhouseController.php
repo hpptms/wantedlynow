@@ -33,7 +33,8 @@ class InhouseController extends Controller
         $inhouse = new Inhous;
         $results = $inhouse->overview($id);
         
-        return view('overview',['result' =>$results]);
+        return view("overview",['result' =>$results]);
+        
     }
 
     /**

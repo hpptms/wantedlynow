@@ -1,10 +1,9 @@
 <head>
 <title>wantedly now</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/bootstrap-select.css">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{ asset('css/bootstrap-select.css')}}">
+<link href="{{ asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="{{asset('css/flexslider.css')}}" type="text/css" media="screen" />
 <!-- for-mobile-apps -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,11 +39,11 @@
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!--//fonts-->	
 <!-- js -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
 <!-- js -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap-select.js"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/bootstrap-select.js')}}"></script>
 <script>
   $(document).ready(function () {
     var mySelect = $('#first-disabled2');
@@ -65,18 +64,18 @@
     });
   });
 </script>
-<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
-<link href="css/jquery.uls.css" rel="stylesheet"/>
-<link href="css/jquery.uls.grid.css" rel="stylesheet"/>
-<link href="css/jquery.uls.lcd.css" rel="stylesheet"/>
-<link href="{{ mix('css/app.css') }}" rel="stylesheet">
+<script type="text/javascript" src="{{ asset('js/jquery.leanModal.min.js')}}"></script>
+<link href="{{ asset('css/jquery.uls.css')}}" rel="stylesheet"/>
+<link href="{{ asset('css/jquery.uls.grid.css')}}" rel="stylesheet"/>
+<link href="{{ asset('css/jquery.uls.lcd.css')}}" rel="stylesheet"/>
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <!-- Source -->
-<script src="js/jquery.uls.data.js"></script>
-<script src="js/jquery.uls.data.utils.js"></script>
-<script src="js/jquery.uls.lcd.js"></script>
-<script src="js/jquery.uls.languagefilter.js"></script>
-<script src="js/jquery.uls.regionfilter.js"></script>
-<script src="js/jquery.uls.core.js"></script>
+<script src="{{ asset('js/jquery.uls.data.js')}}"></script>
+<script src="{{ asset('js/jquery.uls.data.utils.js')}}"></script>
+<script src="{{ asset('js/jquery.uls.lcd.js')}}"></script>
+<script src="{{ asset('js/jquery.uls.languagefilter.js')}}"></script>
+<script src="{{ asset('js/jquery.uls.regionfilter.js')}}"></script>
+<script src="{{ asset('js/jquery.uls.core.js')}}"></script>
 <script>
 			$( document ).ready( function() {
 				$( '.uls-trigger' ).uls( {
@@ -88,5 +87,4 @@
 				} );
 			} );
 		</script>
-@livewireStyles
 </head>

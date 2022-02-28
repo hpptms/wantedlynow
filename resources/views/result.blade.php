@@ -14,7 +14,7 @@
         <div class="result">
             <div class="container">
                 @foreach ($results as $result)
-				<form action="{{ url('/overview') }}" method="POST">
+				<form action="{{ url("/overview/$result->id",) }}" method="POST">
 					{{ Form::token() }}
                     <div class="col-md-12 focus-grid send">
                         <div class="focus-border">

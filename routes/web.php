@@ -42,4 +42,4 @@ Route::get('/privacy', function () {
 
 Route::post('/result', 'InhouseController@serch')->name('result');
 
-Route::post('/overview', 'InhouseController@overview')->name('overview');
+Route::post('/overview/{id}', 'InhouseController@overview')->where('id', '[0-9]+')->name('overview');
