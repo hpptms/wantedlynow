@@ -14,20 +14,20 @@
         <div class="result">
             <div class="container">
                 @foreach ($results as $result)
-				<form action="{{ url("/overview/$result->id",) }}" method="POST">
-					{{ Form::token() }}
-                    <div class="col-md-12 focus-grid send">
-                        <div class="focus-border">
-                            <div class="focus-layout result-content">
-                                <h2>{{ $result->company }}</h2>
-                                <h3>{{ $result->bosyuu }}<h3>
-                                <input type="hidden" name="id" value="{{ $result->id }}">
+                    <form action="{{ url("/overview/$result->id") }}" method="POST">
+                        {{ Form::token() }}
+                        <div class="col-md-12 focus-grid send">
+                            <div class="focus-border">
+                                <div class="focus-layout result-content">
+                                    <h2>{{ $result->company }}</h2>
+                                    <h3>{{ $result->bosyuu }}<h3>
+                                            <input type="hidden" name="id" value="{{ $result->id }}">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    {{-- <livewire:counter> --}}
+                        {{-- <livewire:counter> --}}
+                    </form>
                 @endforeach
-				</form>
             </div>
         </div>
         <!-- // result -->
@@ -38,9 +38,9 @@
 
 </html>
 
-<script>	
+<script>
     $('.send').on('click blur', function() {
-		$form = $(this).parent();
+        $form = $(this).parent();
         $form.submit();
     });
 </script>
