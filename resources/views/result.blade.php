@@ -27,7 +27,8 @@
                         </div>
                         {{-- <livewire:counter> --}}
                     </form>
-                @endforeach
+                @endforeach	
+				{{ $results->links('vendor.pagination.bootstrap-4') }}
             </div>
         </div>
         <!-- // result -->

@@ -40,6 +40,7 @@ Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
 
-Route::post('/result', 'InhouseController@serch')->name('result');
+Route::post('/result/{lang}{id}', 'InhouseController@serch')->where(['lang', '.*','id', ',*'])->name('result');
+Route::get('/result/{lang}{id}', 'InhouseController@serch')->where(['lang', '.*','id', ',*'])->name('result');
 
 Route::post('/overview/{id}', 'InhouseController@overview')->where('id', '[0-9]+')->name('overview');

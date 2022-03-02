@@ -14,7 +14,7 @@ class Inhous extends Model
     public function simpleSerch($query){
         $result = Inhous::where('lang', 'LIKE', '%' .$query. '%')
                   ->select('id','company','bosyuu')
-                  ->get();
+                  ->paginate(10);
         return $result;
     }
 

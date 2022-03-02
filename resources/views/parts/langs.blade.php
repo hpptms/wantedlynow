@@ -1,4 +1,4 @@
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/PHP') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -12,7 +12,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/ruby') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -27,7 +27,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/python') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -42,7 +42,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/peal') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -57,7 +57,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/Next') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -73,7 +73,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/Java') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -88,7 +88,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/Swift') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -103,7 +103,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/Kotlin') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -118,7 +118,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/dart') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -133,7 +133,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/go') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -148,7 +148,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/elm') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -163,7 +163,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/rust') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -178,7 +178,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/scala') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -193,7 +193,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/C') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -208,7 +208,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/C#') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -223,7 +223,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/HTML') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -238,7 +238,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/CSS') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -253,7 +253,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/typescript') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -269,7 +269,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/react') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -284,7 +284,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/vue') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -299,7 +299,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/nuxt') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -314,7 +314,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/AWS') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -329,7 +329,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/linux') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -343,7 +343,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result') }}" method="POST">
+<form action="{{ url('/result/redhat') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
