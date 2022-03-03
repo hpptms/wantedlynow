@@ -16,7 +16,7 @@
                 @foreach ($results as $result)
                     <form action="{{ url("/overview/$result->id") }}" method="POST">
                         {{ Form::token() }}
-                        <div class="col-md-12 focus-grid send">
+                        <div class="col-md-12 focus-grid widthMax send">
                             <div class="focus-border">
                                 <div class="focus-layout result-content">
                                     <h2>{{ $result->company }}</h2>

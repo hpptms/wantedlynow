@@ -73,7 +73,7 @@ ul {
 }
 
 @media (max-width: 414px) {
-  .focus-grid {
+  .widthMax {
     width: 100%;
   }
 }
