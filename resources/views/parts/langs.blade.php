@@ -12,7 +12,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result/ruby') }}" method="POST">
+<form action="{{ url('/result/Ruby') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -27,7 +27,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result/python') }}" method="POST">
+<form action="{{ url('/result/Python') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
