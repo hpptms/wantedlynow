@@ -14,9 +14,9 @@
         <div class="overview">
             <div class="container">
                 @foreach ($result as $result)
-                    <div class="col-md-12 focus-grid send">
-                        <div class="focus-border">
-                            <div class="focus-layout  widthMax overview-content" style="text-align:left;">
+                    <div class="col-md-12 focus-grid widthMax send">
+                        <div class="focus-border widthMax">
+                            <div class="focus-layout widthMax overview-content" style="text-align:left;">
                                 <div class="wrap">
                                     <div>企業名：</div>
                                     <h2>{{ $result->company }}</h2>
