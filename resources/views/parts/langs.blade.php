@@ -21,8 +21,8 @@
                     <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645702428/inhous/ruby.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">ruby</h4>
-                <input type="hidden" name="lang" value="ruby">
+                <h4 class="clrchg">Ruby</h4>
+                <input type="hidden" name="lang" value="Ruby">
             </div>
         </div>
     </div>
@@ -36,13 +36,13 @@
                     <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704256/inhous/python.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">python</h4>
-                <input type="hidden" name="lang" value="python">
+                <h4 class="clrchg">Python</h4>
+                <input type="hidden" name="lang" value="Python">
             </div>
         </div>
     </div>
 </form>
-<form action="{{ url('/result/peal') }}" method="POST">
+<form action="{{ url('/result/Perl') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -51,8 +51,8 @@
                     <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704427/inhous/perl.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">perl</h4>
-                <input type="hidden" name="lang" value="perl">
+                <h4 class="clrchg">Perl</h4>
+                <input type="hidden" name="lang" value="Perl">
             </div>
         </div>
     </div>
@@ -118,7 +118,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result/dart') }}" method="POST">
+<form action="{{ url('/result/Dart') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -127,13 +127,13 @@
                     <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707233/inhous/dart.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">dart</h4>
-                <input type="hidden" name="lang" value="dart">
+                <h4 class="clrchg">Dart</h4>
+                <input type="hidden" name="lang" value="Dart">
             </div>
         </div>
     </div>
 </form>
-<form action="{{ url('/result/go') }}" method="POST">
+<form action="{{ url('/result/Go') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -142,8 +142,8 @@
                     <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707235/inhous/gopher.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">go</h4>
-                <input type="hidden" name="lang" value="go">
+                <h4 class="clrchg">Go</h4>
+                <input type="hidden" name="lang" value="Go">
             </div>
         </div>
     </div>
@@ -163,7 +163,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result/rust') }}" method="POST">
+<form action="{{ url('/result/Rust') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -172,13 +172,13 @@
                     <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707238/inhous/rust.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">rust</h4>
-                <input type="hidden" name="lang" value="rust">
+                <h4 class="clrchg">Rust</h4>
+                <input type="hidden" name="lang" value="Rust">
             </div>
         </div>
     </div>
 </form>
-<form action="{{ url('/result/scala') }}" method="POST">
+<form action="{{ url('/result/Scala') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -187,8 +187,8 @@
                     <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707239/inhous/scala.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">scala</h4>
-                <input type="hidden" name="lang" value="scala">
+                <h4 class="clrchg">Scala</h4>
+                <input type="hidden" name="lang" value="Scala">
             </div>
         </div>
     </div>
@@ -269,7 +269,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result/react') }}" method="POST">
+<form action="{{ url('/result/React') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -278,13 +278,13 @@
                     <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/react.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">react.js</h4>
-                <input type="hidden" name="lang" value="react">
+                <h4 class="clrchg">React.js</h4>
+                <input type="hidden" name="lang" value="React">
             </div>
         </div>
     </div>
 </form>
-<form action="{{ url('/result/vue') }}" method="POST">
+<form action="{{ url('/result/Vue') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -293,13 +293,13 @@
                     <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/vue.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">vue.js</h4>
-                <input type="hidden" name="lang" value="vue">
+                <h4 class="clrchg">Vue.js</h4>
+                <input type="hidden" name="lang" value="Vue">
             </div>
         </div>
     </div>
 </form>
-<form action="{{ url('/result/nuxt') }}" method="POST">
+<form action="{{ url('/result/Nuxt') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
@@ -308,8 +308,8 @@
                     <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707237/inhous/nuxt-icon.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">nuxt.js</h4>
-                <input type="hidden" name="lang" value="nuxt">
+                <h4 class="clrchg">Nuxt.js</h4>
+                <input type="hidden" name="lang" value="Nuxt">
             </div>
         </div>
     </div>
