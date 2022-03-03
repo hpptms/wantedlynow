@@ -72,3 +72,9 @@ ul {
   background: #fff;
 }
 
+@media (max-width: 414px) {
+  .focus-grid {
+    width: 100%;
+  }
+}
+

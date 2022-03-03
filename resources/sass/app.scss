@@ -71,3 +71,9 @@ ul{
     border-radius: 50%;
     background: #fff;
 }
+
+@media (max-width: 414px){
+    .focus-grid {
+        width: 100%;
+    }
+}
