@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\URL;
 use Carbon\Carbon;
+use App\Models\Inhous;
 
 use Illuminate\Http\Request;
 
@@ -58,6 +59,24 @@ class SitemapController extends Controller
                 1.0,
                 'weekly'
             );
+
+            // $sitemap->add(
+            //     route('result'),
+            //     Carbon::now(),
+            //     1.0,
+            //     'weekly'
+            // );
+
+            // 企業ページ
+            $inhouse = new Inhous;
+            $results = $inhouse->sitemap();
+            foreach ($results as $result)
+            {
+                $sitemap->add(URL::to('/overview/' . $result->id));
+            }
+                
+            
+
         }
         // XML形式で出力
         return $sitemap->render('xml');

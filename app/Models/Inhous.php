@@ -24,4 +24,10 @@ class Inhous extends Model
                   ->get();
         return $result;
     }
+
+    public function sitemap(){
+        $result = Inhous::select('id')
+                  ->get();
+        return $result;
+    }
 }
