@@ -44,3 +44,4 @@ Route::post('/result/{lang}{id}', 'InhouseController@serch')->where(['lang', '.*
 Route::get('/result/{lang}{id}', 'InhouseController@serch')->where(['lang', '.*','id', ',*'])->name('result');
 
 Route::post('/overview/{id}', 'InhouseController@overview')->where('id', '[0-9]+')->name('overview');
+Route::get('/overview/{id}', 'InhouseController@overview')->where('id', '[0-9]+')->name('overview');

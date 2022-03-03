@@ -31,7 +31,7 @@
                                 </div>
                                 <div class="wrap">
                                     <div>概要：</div>
-                                    <div>{{ $result->overview }}</div>
+                                    <div class="summary">{{ $result->overview }}</div>
                                 </div>
                                 <div style="text-align:center;">
                                     <a href="{{ $result->url }}">
@@ -55,12 +55,21 @@
 </html>
 
 <script>
+    // 言語の置き換え
     $tmp = "";
     $lang = $(".lang").text();
     $array = $lang.split(",");
-    $.each($array, function($index, $value){
+    $.each($array, function($index, $value) {
         $tmp = $tmp + ('<span class="tmp">' + $value + '</span>');
     });
     $(".lang").html($tmp);
     $('.tmp').addClass('tag');
+
+
+    // 概要の置き換え
+    var overview = $('.summary').html();
+    $('.summary').html(overview.replace(/。/g, '。<br/>')
+    .replace(/.■/g, '。<br/>■')
+    );
+    
 </script>
