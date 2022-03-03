@@ -37,6 +37,17 @@ class InhouseController extends Controller
         
     }
 
+    public function freesearch(Request $req)
+    {
+        $word = $req->where;
+        $type = $req->Radios;
+        $inhouse = new Inhous;
+        $results = $inhouse->freesearch($word,$type);
+        
+        return view("result",['results' =>$results]);
+        
+    }
+
     /**
      * Show the form for creating a new resource.
      *

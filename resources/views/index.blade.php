@@ -17,6 +17,10 @@
 					<div class="clearfix"></div>
 				</div>
 			</div>
+			<div class="container">
+				@include('parts.freeform')
+				<div class="clearfix"></div>
+			</div>
 			<div class="trending-ads">
 				<div class="container">
 				<!-- slider -->

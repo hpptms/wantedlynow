@@ -30,4 +30,20 @@ class Inhous extends Model
                   ->get();
         return $result;
     }
+
+    public function freesearch($word,$type){
+        if($type == 'lang'){
+            $result = Inhous::where('lang', 'LIKE', '%' .$word. '%')
+                  ->orderBy('id', 'desc')
+                  ->select('id','company','bosyuu')
+                  ->paginate(10);
+        }else{
+            $result = Inhous::where('overview', 'LIKE', '%' .$word. '%')
+                  ->orderBy('id', 'desc')
+                  ->select('id','company','bosyuu')
+                  ->paginate(10);
+        }
+
+        return $result;
+    }
 }

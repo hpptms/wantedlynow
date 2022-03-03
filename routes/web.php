@@ -45,3 +45,6 @@ Route::get('/result/{lang}{id}', 'InhouseController@serch')->where(['lang', '.*'
 
 Route::post('/overview/{id}', 'InhouseController@overview')->where('id', '[0-9]+')->name('overview');
 Route::get('/overview/{id}', 'InhouseController@overview')->where('id', '[0-9]+')->name('overview');
+
+Route::post('/freesearch{id}', 'InhouseController@freesearch')->where('id', '.*')->name('freesearch');
+Route::get('/freesearch{id}', 'InhouseController@freesearch')->where('id', '.*')->name('freesearch');
