@@ -21,8 +21,8 @@
 <meta name="twitter:title" content="wantedly now">
 <meta name="msvalidate.01" content="F37C7C79F80EDFE1CEA4ABB1A123E3CA" />
 <meta name="csrf-token" content="{{ csrf_token() }}">
-<link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1645163643/casino/chick.svg" sizes="32x32">
-<link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1645163643/casino/chick.svg" sizes="192x192">
+<link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1646364579/inhous/animated_icons-03.svg" sizes="32x32">
+<link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1646364579/inhous/animated_icons-03.svg" sizes="192x192">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 {{-- グーグル広告 --}}
