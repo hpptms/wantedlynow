@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <h4 class="clrchg">Objective-C</h4>
-                <input type="hidden" name="lang" value="Objective-C">
+                <input type="hidden" name="lang" value="Objective">
             </div>
         </div>
     </div>
