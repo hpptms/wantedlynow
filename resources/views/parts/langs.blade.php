@@ -103,6 +103,21 @@
         </div>
     </div>
 </form>
+<form action="{{ url('/result/Objective-C') }}" method="POST">
+    {{ Form::token() }}
+    <div class="col-md-2 focus-grid send">
+        <div class="focus-border">
+            <div class="focus-layout">
+                <div class="focus-image">
+                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1646355263/inhous/objective-c.webp">
+                    </div>
+                </div>
+                <h4 class="clrchg">Objective-C</h4>
+                <input type="hidden" name="lang" value="Objective-C">
+            </div>
+        </div>
+    </div>
+</form>
 <form action="{{ url('/result/Kotlin') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
@@ -339,24 +354,12 @@
                     </div>
                 </div>
                 <h4 class="clrchg">linux</h4>
+                <input type="hidden" name="lang" value="linux">
             </div>
         </div>
     </div>
 </form>
-<form action="{{ url('/result/redhat') }}" method="POST">
-    {{ Form::token() }}
-    <div class="col-md-2 focus-grid send">
-        <div class="focus-border">
-            <div class="focus-layout">
-                <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707237/inhous/redhat.svg">
-                    </div>
-                </div>
-                <h4 class="clrchg">redhat</h4>
-            </div>
-        </div>
-    </div>
-</form>
+
 
 <script>
     $('.send').on('click blur', function() {
