@@ -25,6 +25,10 @@
 <link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1645163643/casino/chick.svg" sizes="192x192">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+{{-- グーグル広告 --}}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5157294493857921"
+     crossorigin="anonymous"></script>
+{{-- グーグル広告 --}}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57073157-9"></script>
 <script>
