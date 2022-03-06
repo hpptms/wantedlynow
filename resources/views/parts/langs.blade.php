@@ -217,7 +217,7 @@
                     <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1646548946/inhous/erlang.svg">
                     </div>
                 </div>
-                <h4 class="clrchg">C</h4>
+                <h4 class="clrchg">erlang</h4>
                 <input type="hidden" name="lang" value="erlang">
             </div>
         </div>
