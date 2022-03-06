@@ -4,7 +4,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645702275/inhous/php.svg"></div>
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645702275/inhous/php.svg"></div>
                 </div>
                 <h4 class="clrchg">PHP</h4>
                 <input type="hidden" name="lang" value="PHP">
@@ -18,7 +18,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645702428/inhous/ruby.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645702428/inhous/ruby.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Ruby</h4>
@@ -33,7 +33,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704256/inhous/python.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704256/inhous/python.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Python</h4>
@@ -48,7 +48,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704427/inhous/perl.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704427/inhous/perl.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Perl</h4>
@@ -79,7 +79,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704672/inhous/java.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704672/inhous/java.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Java</h4>
@@ -94,7 +94,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704672/inhous/swift.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704672/inhous/swift.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Swift</h4>
@@ -109,7 +109,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1646355263/inhous/objective-c.webp">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1646355263/inhous/objective-c.webp">
                     </div>
                 </div>
                 <h4 class="clrchg">Objective-C</h4>
@@ -124,7 +124,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704672/inhous/kotlin.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645704672/inhous/kotlin.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Kotlin</h4>
@@ -139,7 +139,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707233/inhous/dart.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707233/inhous/dart.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Dart</h4>
@@ -154,7 +154,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707235/inhous/gopher.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707235/inhous/gopher.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Go</h4>
@@ -169,7 +169,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707235/inhous/elm.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707235/inhous/elm.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">elm</h4>
@@ -184,7 +184,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707238/inhous/rust.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707238/inhous/rust.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Rust</h4>
@@ -199,7 +199,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707239/inhous/scala.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707239/inhous/scala.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Scala</h4>
@@ -214,7 +214,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1646354017/inhous/c-plusplus.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1646354017/inhous/c-plusplus.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">C++</h4>
@@ -229,7 +229,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707237/inhous/haskell-icon.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707237/inhous/haskell-icon.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">haskell</h4>
@@ -244,7 +244,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707237/inhous/html-5.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707237/inhous/html-5.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">HTML</h4>
@@ -259,7 +259,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707233/inhous/css-3.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707233/inhous/css-3.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">CSS</h4>
@@ -290,7 +290,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/react.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/react.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">React.js</h4>
@@ -305,7 +305,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/vue.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/vue.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Vue.js</h4>
@@ -320,7 +320,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707237/inhous/nuxt-icon.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707237/inhous/nuxt-icon.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">Nuxt.js</h4>
@@ -335,7 +335,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/aws.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/aws.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">AWS</h4>
@@ -350,7 +350,7 @@
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/linux-tux.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/linux-tux.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">linux</h4>
