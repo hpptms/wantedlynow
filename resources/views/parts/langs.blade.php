@@ -208,6 +208,36 @@
         </div>
     </div>
 </form>
+<form action="{{ url('/result/Clang') }}" method="POST">
+    {{ Form::token() }}
+    <div class="col-md-2 focus-grid send">
+        <div class="focus-border">
+            <div class="focus-layout">
+                <div class="focus-image">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707233/inhous/c.svg">
+                    </div>
+                </div>
+                <h4 class="clrchg">C</h4>
+                <input type="hidden" name="lang" value="C">
+            </div>
+        </div>
+    </div>
+</form>
+<form action="{{ url('/result/C-Sharp') }}" method="POST">
+    {{ Form::token() }}
+    <div class="col-md-2 focus-grid send">
+        <div class="focus-border">
+            <div class="focus-layout">
+                <div class="focus-image">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707233/inhous/c-sharp.svg">
+                    </div>
+                </div>
+                <h4 class="clrchg">C#</h4>
+                <input type="hidden" name="lang" value="C#">
+            </div>
+        </div>
+    </div>
+</form>
 <form action="{{ url('/result/C++') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
@@ -329,36 +359,7 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result/AWS') }}" method="POST">
-    {{ Form::token() }}
-    <div class="col-md-2 focus-grid send">
-        <div class="focus-border">
-            <div class="focus-layout">
-                <div class="focus-image">
-                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/aws.svg">
-                    </div>
-                </div>
-                <h4 class="clrchg">AWS</h4>
-                <input type="hidden" name="lang" value="AWS">
-            </div>
-        </div>
-    </div>
-</form>
-<form action="{{ url('/result/linux') }}" method="POST">
-    {{ Form::token() }}
-    <div class="col-md-2 focus-grid send">
-        <div class="focus-border">
-            <div class="focus-layout">
-                <div class="focus-image">
-                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645706275/inhous/linux-tux.svg">
-                    </div>
-                </div>
-                <h4 class="clrchg">linux</h4>
-                <input type="hidden" name="lang" value="linux">
-            </div>
-        </div>
-    </div>
-</form>
+
 
 
 <script>
