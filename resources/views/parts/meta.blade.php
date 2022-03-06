@@ -81,7 +81,7 @@
 <script src="{{ asset('js/jquery.uls.lcd.js')}}" async></script>
 <script src="{{ asset('js/jquery.uls.languagefilter.js')}}" async></script>
 <script src="{{ asset('js/jquery.uls.regionfilter.js')}}" async></script>
-<script src="{{ asset('js/jquery.uls.core.js')}}" async></script>
+<script src="{{ asset('js/jquery.uls.core.js')}}"></script>
 <script>
 			$( document ).ready( function() {
 				$( '.uls-trigger' ).uls( {
