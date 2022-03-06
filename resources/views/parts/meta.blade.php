@@ -1,9 +1,9 @@
 <head>
 <title>wantedly now</title>
-<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
-<link rel="stylesheet" href="{{ asset('css/bootstrap-select.css')}}">
-<link href="{{ asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="{{asset('css/flexslider.css')}}" type="text/css" media="screen" />
+<link rel="preload" href="{{ asset('css/bootstrap.min.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('css/bootstrap-select.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('css/style.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" media="all" />
+<link rel="preload" href="{{asset('css/flexslider.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" media="screen" />
 <!-- for-mobile-apps -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -71,10 +71,10 @@
   });
 </script>
 <script type="text/javascript" src="{{ asset('js/jquery.leanModal.min.js')}}"></script>
-<link href="{{ asset('css/jquery.uls.css')}}" rel="stylesheet"/>
-<link href="{{ asset('css/jquery.uls.grid.css')}}" rel="stylesheet"/>
-<link href="{{ asset('css/jquery.uls.lcd.css')}}" rel="stylesheet"/>
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<link rel="preload" href="{{ asset('css/jquery.uls.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<link rel="preload" href="{{ asset('css/jquery.uls.grid.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<link rel="preload" href="{{ asset('css/jquery.uls.lcd.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<link rel="preload" href="{{ asset('css/app.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <!-- Source -->
 <script src="{{ asset('js/jquery.uls.data.js')}}"></script>
 <script src="{{ asset('js/jquery.uls.data.utils.js')}}"></script>
