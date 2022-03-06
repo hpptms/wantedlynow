@@ -23,6 +23,7 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1646364579/inhous/animated_icons-03.svg" sizes="32x32">
 <link rel="icon" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1646364579/inhous/animated_icons-03.svg" sizes="192x192">
+<link rel="preload" as="image" href="https://res.cloudinary.com/danj8nvfr/image/upload/v1645596988/inhous/coffeehouse-g765da5865_1280.webp">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 {{-- グーグル広告 --}}
@@ -75,12 +76,12 @@
 <link href="{{ asset('css/jquery.uls.lcd.css')}}" rel="stylesheet"/>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <!-- Source -->
-<script src="{{ asset('js/jquery.uls.data.js')}}"></script>
-<script src="{{ asset('js/jquery.uls.data.utils.js')}}"></script>
-<script src="{{ asset('js/jquery.uls.lcd.js')}}"></script>
-<script src="{{ asset('js/jquery.uls.languagefilter.js')}}"></script>
-<script src="{{ asset('js/jquery.uls.regionfilter.js')}}"></script>
-<script src="{{ asset('js/jquery.uls.core.js')}}"></script>
+<script src="{{ asset('js/jquery.uls.data.js')}}" async></script>
+<script src="{{ asset('js/jquery.uls.data.utils.js')}}" async></script>
+<script src="{{ asset('js/jquery.uls.lcd.js')}}" async></script>
+<script src="{{ asset('js/jquery.uls.languagefilter.js')}}" async></script>
+<script src="{{ asset('js/jquery.uls.regionfilter.js')}}" async></script>
+<script src="{{ asset('js/jquery.uls.core.js')}}" async></script>
 <script>
 			$( document ).ready( function() {
 				$( '.uls-trigger' ).uls( {
