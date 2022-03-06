@@ -76,8 +76,8 @@
 <link href="{{ asset('css/jquery.uls.lcd.css')}}" rel="stylesheet"/>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <!-- Source -->
-<script src="{{ asset('js/jquery.uls.data.js')}}" async></script>
-<script src="{{ asset('js/jquery.uls.data.utils.js')}}" async></script>
+<script src="{{ asset('js/jquery.uls.data.js')}}"></script>
+<script src="{{ asset('js/jquery.uls.data.utils.js')}}"></script>
 <script src="{{ asset('js/jquery.uls.lcd.js')}}" async></script>
 <script src="{{ asset('js/jquery.uls.languagefilter.js')}}" async></script>
 <script src="{{ asset('js/jquery.uls.regionfilter.js')}}" async></script>
