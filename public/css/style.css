@@ -818,12 +818,12 @@ p.creating{
 .nbs-flexisel-nav-left {
 	left: -45px;
 	top: 38% !important;
-	background: url(../image/themes1.png) no-repeat 1px 3px;
+	background: url(../images/themes1.webp) no-repeat 1px 3px;
 }
 .nbs-flexisel-nav-right {
 	right: -45px;
 	top: 38% !important;
-	background: url(../image/themes1.png) no-repeat -23px 3px;
+	background: url(../images/themes1.webp) no-repeat -23px 3px;
 }
 ul#flexiselDemo3.nbs-flexisel-nav-left, ul#flexiselDemo3.nbs-flexisel-nav-right {
 	width:26px;
