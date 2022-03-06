@@ -208,17 +208,17 @@
         </div>
     </div>
 </form>
-<form action="{{ url('/result/Clang') }}" method="POST">
+<form action="{{ url('/result/erlang') }}" method="POST">
     {{ Form::token() }}
     <div class="col-md-2 focus-grid send">
         <div class="focus-border">
             <div class="focus-layout">
                 <div class="focus-image">
-                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1645707233/inhous/c.svg">
+                    <div><img loading="lazy" src="https://res.cloudinary.com/danj8nvfr/image/upload/v1646548946/inhous/erlang.svg">
                     </div>
                 </div>
                 <h4 class="clrchg">C</h4>
-                <input type="hidden" name="lang" value="C">
+                <input type="hidden" name="lang" value="erlang">
             </div>
         </div>
     </div>
