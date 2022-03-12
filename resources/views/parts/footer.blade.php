@@ -46,7 +46,7 @@
             </ul>
         </div>
         <div class="copyrights">
-            <p> 2030 wantedly now. All Rights Reserved</p>
+            <p> 2040 wantedly now. All Rights Reserved</p>
         </div>
         <div class="clearfix"></div>
     </div>
