@@ -24,7 +24,7 @@
 			<div class="trending-ads">
 				<div class="container">
 				<!-- slider -->
-				@include('parts.sponsored')
+				{{-- @include('parts.sponsored') --}}
 			<!-- //slider -->				
 			</div>
 		</div>
