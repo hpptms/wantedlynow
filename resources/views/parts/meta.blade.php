@@ -3,7 +3,7 @@
 <link rel="preload" href="{{ asset('css/bootstrap.min.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="preload" href="{{ asset('css/bootstrap-select.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="preload" href="{{ asset('css/style.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" media="all" />
-<link rel="preload" href="{{asset('css/flexslider.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" media="screen" />
+<link rel="preload" href="{{ asset('css/flexslider.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" media="screen" />
 <!-- for-mobile-apps -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,25 +31,24 @@
      crossorigin="anonymous"></script>
 グーグル広告 --}}
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57073157-9"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-95JV3C39T3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-57073157-9');
+  gtag('config', 'G-95JV3C39T3');
 </script>
-<!-- //for-mobile-apps -->
 <!--fonts-->
 <link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!--//fonts-->	
 <!-- js -->
-<script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
 <!-- js -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="{{asset('js/bootstrap.min.js')}}"></script>
-<script src="{{asset('js/bootstrap-select.js')}}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap-select.js') }}"></script>
 <script>
   $(document).ready(function () {
     var mySelect = $('#first-disabled2');
@@ -71,17 +70,17 @@
   });
 </script>
 <script type="text/javascript" src="{{ asset('js/jquery.leanModal.min.js')}}"></script>
-<link rel="preload" href="{{ asset('css/jquery.uls.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-<link rel="preload" href="{{ asset('css/jquery.uls.grid.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-<link rel="preload" href="{{ asset('css/jquery.uls.lcd.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<link rel="preload" href="{{ asset('css/jquery.uls.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<link rel="preload" href="{{ asset('css/jquery.uls.grid.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<link rel="preload" href="{{ asset('css/jquery.uls.lcd.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
 <link rel="preload" href="{{ asset('css/app.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <!-- Source -->
-<script src="{{ asset('js/jquery.uls.data.js')}}"></script>
-<script src="{{ asset('js/jquery.uls.data.utils.js')}}"></script>
-<script src="{{ asset('js/jquery.uls.lcd.js')}}" async></script>
-<script src="{{ asset('js/jquery.uls.languagefilter.js')}}" async></script>
-<script src="{{ asset('js/jquery.uls.regionfilter.js')}}" async></script>
-<script src="{{ asset('js/jquery.uls.core.js')}}"></script>
+<script src="{{ asset('js/jquery.uls.data.js') }}"></script>
+<script src="{{ asset('js/jquery.uls.data.utils.js') }}"></script>
+<script src="{{ asset('js/jquery.uls.lcd.js') }}" async></script>
+<script src="{{ asset('js/jquery.uls.languagefilter.js') }}" async></script>
+<script src="{{ asset('js/jquery.uls.regionfilter.js') }}" async></script>
+<script src="{{ asset('js/jquery.uls.core.js') }}"></script>
 <script>
 			$( document ).ready( function() {
 				$( '.uls-trigger' ).uls( {
