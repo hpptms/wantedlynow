@@ -39,6 +39,7 @@
 
   gtag('config', 'G-95JV3C39T3');
 </script>
+<script defer data-domain="wantedlynow.net" src="https://plausible.io/js/plausible.js"></script>
 <!--fonts-->
 <link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
