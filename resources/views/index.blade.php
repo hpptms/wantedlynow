@@ -13,6 +13,7 @@
 		<div class="content">
 			<div class="categories">
 				<div class="container">
+					<div>約2週間に1回データを更新しています</div>
 					@include('parts.langs')
 					<div class="clearfix"></div>
 				</div>
